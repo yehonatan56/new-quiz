@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7d1491930.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/quiz.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" width="30%">
+        <h1 class="title-header">חידון האוצרות האבודים</h1>
+    </header>
+    <div class="result">
+            <div class="win result-pupup" id="win">
+                <img src="img/win.png" alt="win">
+                <button value="esc" class="exit-button fas fa-times-circle" onclick="exit(document.getElementById('disper') , win)"></button>
+             </div>
+             <div class="disper result-pupup" id="disper">
+                 <img src="img/disper.png" alt="">
+                <button value="esc" class="exit-button fas fa-times-circle" onclick="exit(document.getElementById('disper') , win)"></button>
+                </div>
+    
+                </div>
+                <div class="main">
+                    <div class="all-question">
+                        <div class="question-a">
+                            <h1>איזה אנשי שבט לא יכלו לבטא את האות "ש" כיאות?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אנשי שבט בנימין</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אנשי שבט זבולון</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">אנשי שבט אפרים</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אנשי שבט מנשה</button>
+                            </div>
+                        </div> 
+                
+                        <div class="question-b">
+                            <h1>מי נקראה אשת לפידות?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">יעל</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">רחב</button>
+                                <br><br>                            
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">חנה</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">דבורה</button> 
+                            </div>
+                        </div> 
+            
+                        <div class="question-c">
+                            <h1>איזו עיר כבש יהושע אחרי יריחו?</h1>
+                            <div class="answer">
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">עי</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">שכם</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">גזר</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">גדרה</button>
+                            </div>
+                        </div> 
+            
+                        <div class="question-d">
+                            <h1>את מי הרג אהוד בן גרא?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">נחש העמוני</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">עבדון</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">חלקיה</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">עגלון</button>
+
+                            </div>
+                        </div> 
+                    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.answer-yes.in-transition {
+  -webkit-transition: -webkit-transform 900ms ease;
+  transition: -webkit-transform 900ms ease;
+  transition: transform 900ms ease;
+  transition: transform 900ms ease, -webkit-transform 900ms ease;
+}
+/*# sourceMappingURL=scroll.css.map */

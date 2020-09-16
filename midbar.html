@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7d1491930.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/quiz.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" width="30%">
+        <h1 class="title-header">חידון האוצרות האבודים</h1>
+    </header>
+    <div class="result">
+            <div class="win result-pupup" id="win">
+                <img src="img/win.png" alt="win">
+                <button value="esc" class="exit-button fas fa-times-circle" onclick="exit(document.getElementById('disper') , win)"></button>
+             </div>
+             <div class="disper result-pupup" id="disper">
+                 <img src="img/disper.png" alt="">
+                <button value="esc" class="exit-button fas fa-times-circle" onclick="exit(document.getElementById('disper') , win)"></button>
+                </div>
+    
+                </div>
+                <div class="main">
+                    <div class="all-question">
+                        <div class="question-a">
+                            <h1>איך קראו יוכבד ועמרם לילדם השלישי?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">משה</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אהרון</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">טוביה</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">ידידיה</button>
+                            </div>
+                        </div> 
+                
+                        <div class="question-b">
+                            <h1>מה היה שמה של אשת אהרון הכהן?</h1>
+                            <div class="answer">
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">אלישבע</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אליפה</button>
+                                <br><br> 
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">מיכל</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">שולמית</button>
+                            </div>
+                        </div> 
+            
+                        <div class="question-c">
+                            <h1>כמה שנים חי אהרון הכהן?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">120</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">126</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">123</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">98</button>
+                            </div>
+                        </div> 
+            
+                        <div class="question-d">
+                            <h1>למה משה היה מגמגם?</h1>
+                            <div class="answer">
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">הוא נולד ככה</button>
+                                 <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">היו לו בעיות שיניים</button>
+                                <br><br>
+                                <button class="answer-yes answer-button" onclick="yes(document.getElementById('win'))">הוא שם גחל בפה</button>
+                                <br><br>
+                                <button class="answer-no answer-button" onclick="no(document.getElementById('disper'))">אף תשובה אינה נכונה</button>
+                            </div>
+                        </div> 
+                    </div>\    </div>
+
+</body>
+</html>
